@@ -8,13 +8,17 @@
 
 <script lang="ts">
 import useUserStore from '@/store/user'
-import { defineComponent } from 'vue'
+import { reactive, onMounted, ref, defineComponent } from 'vue'
+import useUserAuthentificationController from '@/controllers/useUserAuthentificationController'
 
 export default defineComponent({
   name: 'Dashboard',
   setup() {
     const { getMyProfile } = useUserStore()
-
+    const authController = useUserAuthentificationController()
+    onMounted(() => {
+      authController.checkLogin()
+    })
     return {
       getMyProfile,
     }
