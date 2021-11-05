@@ -1,0 +1,24 @@
+.nav {
+  padding: 2rem;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: 1rem;
+  color: $primary;
+  cursor: pointer;
+
+  &.router-link-exact-active {
+    color: $secondary;
+  }
+
+  &:not(:last-child) {
+    margin-right: 2rem;
+  }
+}
+
+.logout-button {
+  background: none;
+  border: none;
+  font-weight: bold;
+}
