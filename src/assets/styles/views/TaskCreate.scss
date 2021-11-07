@@ -1,0 +1,96 @@
+.login {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid $secondary;
+    border-radius: $br-md;
+    width: max-content;
+    padding: 2rem;
+    margin: 0 auto;
+  }
+  
+  .button {
+    width: 12rem;
+    height: 2.5rem;
+    border-radius: $br-md;
+    color: $white;
+    border: none;
+    background: $secondary;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .text-input {
+    width: 25rem;
+    height: 1.5rem;
+    border-radius: $br-sm;
+    border: 1px solid $light-gray;
+    margin-top: 0.125rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .budget-input {
+    flex: 1;
+    height: 1.5rem;
+    border-radius: $br-sm;
+    border: 1px solid $light-gray;
+    margin-top: 0.125rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .platform-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0.125rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  
+  .textarea-input {
+    width: 25rem;
+    border-radius: $br-sm;
+    border: 1px solid $light-gray;
+    margin-top: 0.125rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .checkbox-label {
+    flex-direction: row;
+  }
+  
+  .checkbox {
+    width: 1rem;
+    height: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .budget-section {
+    display: flex;
+    
+  }
+
+  .error {
+    font-size: 0.8rem;
+    color: rgb(253, 7, 7);
+  }
+  

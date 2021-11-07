@@ -34,8 +34,29 @@
 }
 
 .text-input {
-  width: 12rem;
+  width: 16rem;
   height: 1.5rem;
+  border-radius: $br-sm;
+  border: 1px solid $light-gray;
+  margin-top: 0.125rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.budget-input {
+  flex: 1;
+  height: 1.5rem;
+  border-radius: $br-sm;
+  border: 1px solid $light-gray;
+  margin-top: 0.125rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.textarea-input {
+  width: 16rem;
   border-radius: $br-sm;
   border: 1px solid $light-gray;
   margin-top: 0.125rem;
@@ -52,4 +73,9 @@
   width: 1rem;
   height: 1rem;
   margin-left: 0.5rem;
+}
+
+.budget-section {
+  display: flex;
+  
 }
